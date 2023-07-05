@@ -71,7 +71,7 @@ const App = () => {
         <div className="text-center mb-4">
           <span> Length Pin: </span>
           <input
-            className="w-[100px] placeholder:text-base leading-14 text-center items-center text-2xl font-bold text-white w-full h-full bg-[#FAFAFA] dark:bg-[#11131F]  focus:ring-2 focus:outline-none z"
+            className="w-24 placeholder:text-base leading-14 text-center items-center text-2xl font-bold text-white w-full h-full bg-[#FAFAFA] dark:bg-[#11131F]  focus:ring-2 focus:outline-none z"
             type="number"
             min={0}
             value={lengthPin}
@@ -83,7 +83,7 @@ const App = () => {
           {fields.map((propsField, index) => (
             <input
               key={index}
-              className="rounded-[50%] w-[50px] h-[50px] placeholder:text-base leading-14 text-center items-center text-2xl font-bold text-white w-full h-full bg-[#FAFAFA] dark:bg-[#11131F]  focus:ring-2 focus:outline-none z"
+              className="rounded-[50%] w-14 h-14 placeholder:text-base leading-14 text-center items-center text-2xl font-bold text-white w-full h-full bg-[#FAFAFA] dark:bg-[#11131F]  focus:ring-2 focus:outline-none z"
               {...propsField}
             />
           ))}
