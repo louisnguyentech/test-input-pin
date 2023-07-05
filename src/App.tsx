@@ -83,7 +83,11 @@ const App = () => {
           {fields.map((propsField, index) => (
             <input
               key={index}
-              className="rounded-[50%] w-14 h-14 placeholder:text-base leading-14 text-center items-center text-2xl font-bold text-white w-full h-full bg-[#FAFAFA] dark:bg-[#11131F]  focus:ring-2 focus:outline-none z"
+              style={{
+                width: "56px",
+                height: "56px",
+              }}
+              className="rounded-[50%] placeholder:text-base leading-14 text-center items-center text-2xl font-bold text-white w-full h-full bg-[#FAFAFA] dark:bg-[#11131F]  focus:ring-2 focus:outline-none z"
               {...propsField}
             />
           ))}
