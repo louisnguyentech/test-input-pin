@@ -47,7 +47,7 @@ const App = () => {
   };
 
   const onReset = () => {
-    setValues(defaultValue);
+    setValues(Array(lengthPin).fill(""));
   };
 
   const onMask = () => {
